@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kayitOl">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            tools:srcCompat="@tools:sample/avatars" />
+        <EditText
+            android:id="@+id/kullaniciAdiGir"
+            android:layout_width="223dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/kullanici_adi"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/sifreGir"
+            android:layout_width="223dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/sifre"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="223dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="223dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/surname"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/BirthPlace"
+        android:layout_width="223dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/birth_place"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/birthDate"
+        android:layout_width="223dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/birthdate"
+        android:importantForAutofill="no"
+        android:inputType="date"
+         />
+
+    <EditText
+        android:id="@+id/Kimlik_No"
+        android:layout_width="223dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/social_security_number"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+        <EditText
+            android:id="@+id/phoneNum"
+            android:layout_width="223dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Telefon Numarası"
+            android:inputType="phone" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/sendButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="@string/gonder"
+                />
+
+            <Button
+                android:id="@+id/pickPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="@string/fotograf_sec"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

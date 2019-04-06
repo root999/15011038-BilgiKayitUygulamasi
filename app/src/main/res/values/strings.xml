@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MobilDev_v03</string>
+    <string name="name">İsim</string>
+    <string name="surname">Soyisim</string>
+    <string name="birth_place">Doğum Yeri</string>
+    <string name="birthdate">Doğum Tarihi</string>
+    <string name="social_security_number">T.C NO</string>
+    <string name="gonder">Gonder</string>
+    <string name="fotograf_sec">Fotograf Sec</string>
+    <string name="kullanici_adi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="login">Giriş Yap</string>
+    <string name="new_account">Kayıt Ol</string>
+
+</resources>
